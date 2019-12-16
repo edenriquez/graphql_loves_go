@@ -1,0 +1,20 @@
+version: "3.2"
+services:
+  go:
+    build: .
+    depends_on:
+      - gotodomysql
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/go/src/github.com/edenriquez/graphql_loves_go/server/
+    command: "go run server/server.go"
+  gonetdata:
+    image: netdata/netdata
+    ports: 
+      - "19999:19999"
+  gotodomysql:
+    image: mysql:5.6.40
+    environment:
+      - MYSQL_DATABASE=product
+      - MYSQL_ROOT_PASSWORD=rootpassword

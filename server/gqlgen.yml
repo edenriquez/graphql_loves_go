@@ -15,7 +15,7 @@ resolver:
 autobind: []
 models:
   Todo:
-    model: github.com/edenriquez/graphql_loves_go/backend/models.Todo
+    model: github.com/edenriquez/graphql_loves_go/server/models.Todo
   User:
-    model: github.com/edenriquez/graphql_loves_go/backend/models.User
+    model: github.com/edenriquez/graphql_loves_go/server/models.User
   
