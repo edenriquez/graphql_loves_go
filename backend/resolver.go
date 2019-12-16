@@ -1,5 +1,7 @@
 package backend
 
+//go:generate go run github.com/99designs/gqlgen
+
 import (
 	"context"
 	"fmt"
@@ -64,9 +66,3 @@ func (r *todoResolver) Users(ctx context.Context, obj *models.Todo) (*models.Use
 	return &models.User{ID: obj.User.ID, Name: "user " + obj.User.Name}, nil
 }
 
-type userResolver struct{ *Resolver }
-
-// SET
-func (r *userResolver) Users(ctx context.Context, obj *models.User) (*models.User, error) {
-	return &models.User{ID: obj.ID, Name: "user " + obj.Name}, nil
-}
