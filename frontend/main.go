@@ -20,11 +20,11 @@ type query struct {
 /*
 	query findTodos {
 		todos {
-		text
-		done
-		user {
-			name
-		}
+			text
+			done
+			user {
+				name
+			}
 		}
 	}
 */

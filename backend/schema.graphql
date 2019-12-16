@@ -12,13 +12,16 @@ type User {
 
 type Query {
   todos: [Todo!]!
+  users: [User!]!
 }
 
 input NewTodo {
   text: String!
   userId: String!
+  userName: String!
 }
 
 type Mutation {
   createTodo(input: NewTodo!): Todo!
+  createUser(input: NewTodo!): User!
 }
