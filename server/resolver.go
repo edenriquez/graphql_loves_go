@@ -1,4 +1,4 @@
-package backend
+package server
 
 //go:generate go run github.com/99designs/gqlgen
 
@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 	"math/rand"
-	"github.com/edenriquez/graphql_loves_go/backend/models"
+	"github.com/edenriquez/graphql_loves_go/server/models"
 )
 
 // THIS CODE IS A STARTING POINT ONLY. IT WILL NOT BE UPDATED WITH SCHEMA CHANGES.
