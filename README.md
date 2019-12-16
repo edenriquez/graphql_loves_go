@@ -1,7 +1,10 @@
 # Graph loves Go
+ 
 
-Repo with example shown for backs for the furut meetup talk.
-This repo aim is to provide to the attendes the code base explained in these **[slides](https://docs.google.com/presentation/d/1ssDKywo4ReXP2GP59gc8l88PBFdB51K2jnnkhnyTe_4/edit?usp=sharing)**.
+Repo with example of **client side and server side graphql implementation**. 
+
+As shown in backs for the furute meetup talk.
+This repo aim is to provide to the attendes the code base explained in  **[these slides](https://docs.google.com/presentation/d/1ssDKywo4ReXP2GP59gc8l88PBFdB51K2jnnkhnyTe_4/edit?usp=sharing)**.
 
 ## Installation
 
