@@ -8,6 +8,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/edenriquez/graphql_loves_go/backend v0.0.0-20191216062454-389409f3a648 h1:7Z644P4769Tt7uPEVVOxY1wCcd8JkiYI2sT17hV0MRg=
 github.com/edenriquez/graphql_loves_go/backend v0.0.0-20191216062454-389409f3a648/go.mod h1:qm8kpeBkLcSRTFOzs9ZWiJghx1gVqUUaPAIqIt8q9Os=
+github.com/edenriquez/graphql_loves_go/server v0.0.0-20191216230556-484eec3030b1 h1:g0U57cfpsgWRipBhDxhieI0IdbZJxkY/nRp8S7YhERA=
+github.com/edenriquez/graphql_loves_go/server v0.0.0-20191216230556-484eec3030b1/go.mod h1:qurF02Mxgabr9BzU0yuF3FF7MUt58zNEhdLAn54uJ4A=
 github.com/go-chi/chi v3.3.2+incompatible/go.mod h1:eB3wogJHnLi3x/kFX2A+IbTBlXxmMeXJVKy9tTv1XzQ=
 github.com/gogo/protobuf v1.0.0/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
 github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f/go.mod h1:kBGZzfjB9CEq2AlWe17Uuf7NDRt0dE0s8S51q0aT7Yg=
